@@ -1,0 +1,6 @@
+*.pdf filter=lfs diff=lfs merge=lfs -text
+
+# Mark specific project files as binary to prevent merge conflicts
+*.sln binary
+*.suo binary
+*.vcxproj binary
